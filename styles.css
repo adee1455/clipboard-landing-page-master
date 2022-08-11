@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap');
+
+h1 , h2 , h3
+{
+
+  font-family: "Bai Jamjuree" ;
+  font-weight: 700px;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.5;
+}
+p
+{
+    font-family: "Bai Jamjuree" ;
+  font-weight: 700px;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  padding-top: 2%;
+}
+/* Header Section */
+
+#header
+{
+    background: url(images/bg-header-desktop.png) no-repeat;
+    text-align: center;
+}
+.logo
+{
+    margin-top: 10% ;
+    margin-bottom: 5%;
+}
+.buttons
+{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* Features section */
+
+.features-text
+{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.f-container
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-text
+{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.qs , .is
+{
+   padding-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Buttons */
+.ios {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #26baa4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .ios:hover {
+    background: #286158;
+    text-decoration: none;
+  }
+  
+  .mac {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #6173ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .mac:hover {
+    background: #515a9e;
+    background-image: -webkit-linear-gradient(top, #515a9e, #5d628a);
+    background-image: -moz-linear-gradient(top, #515a9e, #5d628a);
+    background-image: -ms-linear-gradient(top, #515a9e, #5d628a);
+    background-image: -o-linear-gradient(top, #515a9e, #5d628a);
+    background-image: linear-gradient(to bottom, #515a9e, #5d628a);
+    text-decoration: none;
+  }
+  @media (max-width: 375px) {
+    #header{
+
+        background: url(images/bg-header-mobile.png);
+    }
+    
+  }
